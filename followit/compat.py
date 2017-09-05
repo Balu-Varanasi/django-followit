@@ -49,4 +49,4 @@ def get_user_model():
     from accounts.models import User
     return User
 
-USER_MODEL_CLASS_NAME = getattr(settings, 'AUTH_USER_MODEL', 'auth.User')
+USER_MODEL_CLASS_NAME = settings.AUTH_USER_MODEL
