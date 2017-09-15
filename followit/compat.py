@@ -46,7 +46,7 @@ def get_user_model():
     #     from django.contrib.auth.models import User
     #     return User
 
-    from accounts.models import User
+    from apps.accounts.models import User
     return User
 
 USER_MODEL_CLASS_NAME = settings.AUTH_USER_MODEL
